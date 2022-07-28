@@ -1,0 +1,41 @@
+{
+  "name": "sas/cms-mitarbeiter",
+  "description": "CMS Mitarbeiter",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+      "authors": [
+        {
+            "name": "8Mylez GmbH",
+            "role": "Manufacturer",
+            "homepage": "https://www.8mylez.com"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "Sas\\CmsMitarbeiter\\": "src/"
+    }
+  },
+  "require": {
+      "shopware/core": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Sas\\CmsMitarbeiter\\CmsMitarbeiter",
+    "label": {
+      "de-DE": "CMS Mitarbeiter",
+      "en-GB": "CMS Mitarbeiter"
+    },
+    "description": {
+      "en-GB": "A plugin for the CMS builder which adds several column layouts",
+      "de-DE": "Plugin welches im CMS Designer diverse Blöcke bereit stellt"
+      },
+      "manufacturerLink": {
+          "en-GB": "https://www.8mylez.com",
+          "de-DE": "https://www.8mylez.com"
+      },
+      "supportLink": {
+          "de-DE": "https://www.8mylez.com",
+          "en-GB": "https://www.8mylez.com"
+      }
+    }
+}
+

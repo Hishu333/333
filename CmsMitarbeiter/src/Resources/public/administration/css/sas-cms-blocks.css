@@ -1,0 +1,22 @@
+.sw-cms-block-3-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.sas-cms-preview-block-3-columns {
+    width: 100%;
+    padding: 15px;
+}
+.sas-cms-block {
+    display: flex;
+    width: 100%;
+}
+.sas-cms-block-column {
+    box-sizing: border-box;
+    background-color: rgba(11, 43, 94, 0.05);
+    border: 2px dashed rgba(69, 136, 245, 0.4);
+    height: 28px;
+}
+.sas-cms-block-column{
+    margin-left: 5px;
+}
